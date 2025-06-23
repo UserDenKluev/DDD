@@ -3,4 +3,7 @@ services:
     name: telegram-bot
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python ddd.py 
+    startCommand: python ddd.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.4 
