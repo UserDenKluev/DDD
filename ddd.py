@@ -4,6 +4,7 @@ from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filte
 # === Настройки ===
 BOT_TOKEN = '7286373398:AAHur3oLwZ5KkvJcS_L73fYgZvfxt1vA0kI'  # Замените на ваш токен
 GROUP_CHAT_ID = 5603212222  # ID целевой группы (всегда отрицательное число)
+#asdsa
 
 # === Обработчик входящих сообщений ===
 async def forward_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
