@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 
 # === Настройки ===
-BOT_TOKEN = '7286373398:AAHur3oLwZ5KkvJcS_L73fYgZvfxt1vA0kI'  # Замените на ваш токен
+BOT_TOKEN = '7992500011:AAGSfiGHolxiSYlZJocjOOfdXb4wwSFLWec'  # Замените на ваш токен
 GROUP_CHAT_ID = 5603212222  # ID целевой группы (всегда отрицательное число)
 #asdsa
 
