@@ -34,7 +34,8 @@ def main():
     # Получаем порт из переменной окружения Render
     port = int(os.environ.get("PORT", 8443))
     # URL, по которому Telegram будет отправлять обновления (замените на ваш Render-домен)
-    webhook_url = f"https://{os.environ.get('RENDER_EXTERNAL_HOSTNAME', 'your-app.onrender.com')}/{BOT_TOKEN}"
+    webhook_path = f"/{BOT_TOKEN}"
+    webhook_url = f"https://ddd-h0w2.onrender.com{webhook_path}"
 
     app.run_webhook(
         listen="0.0.0.0",
