@@ -10,6 +10,8 @@ GROUP_CHAT_ID = 5603212222  # ID целевой группы (всегда от�
 async def forward_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_message = update.message
 
+    print(user_message, flush=True)
+
     if user_message:
         try:
             await context.bot.forward_message(
