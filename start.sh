@@ -1,2 +1,2 @@
 #!/bin/bash
-python ddd.py 
+# python ddd.py 
