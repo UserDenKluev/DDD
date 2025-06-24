@@ -29,7 +29,7 @@ def main():
     app = ApplicationBuilder().token(BOT_TOKEN).build()
     app.add_handler(MessageHandler(filters.ALL & ~filters.COMMAND, forward_message))
 
-    print("Бот запущен через webhook...")
+    print("Бот запущен через webhook...", flush=True)
 
     # Получаем порт из переменной окружения Render
     port = int(os.environ.get("PORT", 8443))
